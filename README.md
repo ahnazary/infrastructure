@@ -1,8 +1,8 @@
 # infrastructure as code
 
-Repository to manage infrastructure as code using terraform.
+Repository to manage infrastructure as code using terraform. This repository is used to create cloud resources (e.g. AWS S3 bucket, AWS EC2 instance, etc.) using terraform for a wide set of use cases.
 
-## Current infrastructure:
+## Current infrastructure managed by this repository:
 
 - AWS S3 bucket
 
