@@ -5,6 +5,7 @@ Repository to manage infrastructure as code using terraform. This repository is 
 ## Current infrastructure managed by this repository:
 
 - AWS S3 bucket
+- AWS ECR repository (for docker images)
 
 ## configuring AWS credentials
 

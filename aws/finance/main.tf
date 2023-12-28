@@ -16,3 +16,12 @@ provider "aws" {
 resource "aws_s3_bucket" "finance-prod" {
   bucket = "ahnazary-finance-prod"
 }
+
+# AWS ECR
+resource "aws_ecr_repository" "finance-prod" {
+  name = "ahnazary-finance-prod"
+  image_tag_mutability = "MUTABLE"
+  image_scanning_configuration {
+    scan_on_push = true
+  }
+}
